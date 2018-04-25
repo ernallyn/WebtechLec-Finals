@@ -1,0 +1,25 @@
+body {
+	background: url(images/globe.jpg);
+    background-repeat: no-repeat;
+    background-size: 1230px 800px;
+  font-family: 'Segoe UI';
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#app {
+  padding: 40px;
+}a
+
+.nav-tabs {
+  border: 1px solid #ddd;
+  padding: 5px 5px 0 5px;
+  border-radius: 5px 5px 0 0;
+  background: #f8f8f8;
+}
+
+.tab-content {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}

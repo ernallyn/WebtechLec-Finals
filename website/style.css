@@ -1,25 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-	background: url(images/globe.jpg);
-    background-repeat: no-repeat;
-    background-size: 1230px 800px;
-  font-family: 'Segoe UI';
-  font-weight: 300;
-  font-size: 18px;
+  margin: 0;
+ 
 }
 
-#app {
-  padding: 40px;
-}a
-
-.nav-tabs {
-  border: 1px solid #ddd;
-  padding: 5px 5px 0 5px;
-  border-radius: 5px 5px 0 0;
-  background: #f8f8f8;
+/* Style the header */
+.header {
+    padding: 10px;
+    text-align: center;
+	color: white;
+	font-size: 30px;
+	background-image: url("back.jpg");
+	
+  
 }
 
-.tab-content {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-top: 0;
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+	color: maroon;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 200px;
+	background-image: url("back4.jpg");
+	background-repeat: no-repeat;
+    background-size: 1400px 700px ;
+}
+
+/* Left and right column */
+.column.side {
+    width: 33.33%;
+	
+	
+}
+
+/* Middle column */
+.column.middle {
+    width: 33.33%;
+	
+	
+}
+.container:hover .overlay {
+  transform: scale(1)
+}
+
+.overlay {
+  position:absolute;
+  top: 30;
+  bottom: 0;
+  left: 20;
+  right: 20;
+  background-color: black;
+  overflow: hidden;
+  width: 70%;
+  height: 50%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+.overlay1 {
+  position:absolute;
+  top: 30;
+  bottom: 0;
+  left: 20;
+  right: 20;
+  background-color: transparent;
+  overflow: hidden;
+  width: 70%;
+  height: 50%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+.overlay2 {
+  position:absolute;
+  top: 30;
+  bottom: 0;
+  left: 20;
+  right: 20;
+  background-color: transparent;
+  overflow: hidden;
+  width: 70%;
+  height: 50%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+.text {
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left:0%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+	
+   
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle  {
+        width: 100%;
+    }
 }

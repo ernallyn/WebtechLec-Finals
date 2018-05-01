@@ -1,0 +1,23 @@
+Java Web Servlet and Java Server Pages (JSP)
+
+Java servlet is Java program that expand the means of a server. Despite servlets can be respond to the other kind of requests. Web servlets are the Java correlated to any other effective Web technologies like PHP and ASP.NET.
+Java Servlet is server side programs for handling the client’s requests and it returns a customized response each requests. Java servlet runs on HTTP protocols. Servlets can used to handle the requests and responses of the server. A servlet is a java class that is extended to handle the capabilities of a server.
+
+Java Server Pages (JSP)
+Java Server Pages (JSP) is a Sun Microsystem for connecting Java from HTML to come up with content for Web Pages. If you create a dynamic content, Java Server Pages (JPS) is more convenient to use to write than HTTP servlets.
+
+What you can do with JSPs
+
+•	Combine Java with HTML to make a dynamic content for Web Pages.
+•	Call custom Java classes, called taglibs, using HTML-like tags.
+•	Separate the dynamic content of a Web page from its presentation.
+
+PHP 
+
+-	Server scripting language, a tool for creating an interactive Web Page.
+
+What is PHP?
+-	PHP is an acronym for "PHP: Hypertext Preprocessor"
+-	PHP is a widely-used, open source scripting language
+-	PHP scripts are executed on the server
+-	PHP is free to download and use

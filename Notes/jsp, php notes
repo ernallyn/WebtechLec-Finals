@@ -13,11 +13,28 @@ What you can do with JSPs
 •	Separate the dynamic content of a Web page from its presentation.
 
 PHP 
-
 -	Server scripting language, a tool for creating an interactive Web Page.
+
+The Beginning of PHP and PHP 3
+-PHP was created in 1995 by Rasmus Lerdorf and means Personal Home Page language. Ever since its beginning it has been one of the most intuitive programming languages used for the creation of dynamic web pages. Later, when the PHP team was formed, the parser was rewritten and PHP version 3.0 saw the light of day. The PHP 3 version was the first serious improvement of the PHP language, which fixed a lot of bugs and completely redesigned the PHP core. The meaning of the abbreviation was also changed to PHP Hypertext Preprocessor.
+
+PHP 4
+-The launch of PHP4 marked serious progress in the usage of the programming language. This is the first version powered by the Zend Engine, which allows working with encoded files through the Zend Optimizer. PHP 4 also saw the introduction of the superglobals - $_GET, $_POST, $_SESSION. For more detailed information on PHP 4, you can check our dedicated article.
+
+PHP 5
+The latest, so far, version 5 introduced a completely reworked, advanced object-oriented programming support, as well as many improvements towards better productivity and security. PHP 5 is an attempt to break from the PHP 3 era, while still offering almost complete backwards compatibility. Unfortunately, this PHP version still does not offer native support for Unicode or multibyte strings. To find more information on PHP 5, you can check our dedicated article, or our comparison between PHP 4 and PHP 5 here.
 
 What is PHP?
 -	PHP is an acronym for "PHP: Hypertext Preprocessor"
 -	PHP is a widely-used, open source scripting language
 -	PHP scripts are executed on the server
 -	PHP is free to download and use
+
+What Can PHP Do?
+-PHP can generate dynamic page content
+-PHP can create, open, read, write, delete, and close files on the server
+-PHP can collect form data
+-PHP can send and receive cookies
+-PHP can add, delete, modify data in your database
+-PHP can be used to control user-access
+-PHP can encrypt data
